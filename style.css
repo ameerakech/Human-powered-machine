@@ -1,0 +1,187 @@
+header{
+    background-color: navy;
+    position: absolute;
+    width: 100%;
+    height: 1cm;
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    line-height: 1em;
+    padding-top: .7em;
+    position: fixed;
+    font-family: 'kurale';
+    font-size: 1.5em;
+}
+.crown{
+    display: flex;
+    gap: 1em;
+        img{
+             /* border-radius: 50%; */
+            height: 5em;
+        }
+        h3{
+            padding-top: 1em;
+        }
+}
+nav{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    background-color: white;
+    gap: 50em;
+    position: fixed;
+    span a{
+            text-decoration: none;
+            color: black;
+            padding-left: 6em;
+            padding-top: 1.5em;
+            font-family: 'kurale';
+            font-size: 1.25em;
+            color: maroon;
+    }
+}
+.game-design{
+    background-image: url(images/tic-tac-toe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+h1{
+    text-overflow: visible;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 4.8cm;
+    position: absolute;
+    margin-left: 12.6cm;
+    font-size: 350%;
+     @font-face {
+        font-family:ancizar ;
+        src: url(url(fonts/Ancizar_Sans/AncizarSans-Italic-VariableFont_wght.ttf));
+    }
+}
+
+
+ @font-face {
+        font-family:ancizar ;
+        src: url(fonts/Ancizar_Sans/AncizarSans-Italic-VariableFont_wght.ttf);
+    }
+
+
+.rulebook p{
+font-size: 150%;
+    }
+    
+.game{
+font-size: 150%;
+
+}
+
+.game-setup p{
+  font-size: 150%;
+
+}
+
+.games{
+    display: flex;
+    gap: 4cm;
+    margin-left: 6cm;
+    margin-top: 2cm;
+}
+#game-design{
+    margin-top: 1.5cm;
+}
+.how-to-play{
+    border: solid 1px;
+    width: 13cm;
+    height: 10cm;
+    background-color: rgb(220, 242, 245);
+    border-radius: 25px;
+    font-size: 120%;
+    padding: 4px;
+    margin-left: 1cm;
+    padding: 25px;
+    
+
+}
+.traits{
+    border: solid 1px;
+    width: 13cm;
+     background-color: rgb(220, 242, 245);
+     border-radius: 25px;
+    font-size: 120%;
+    padding: 25px;
+}
+
+.winning{
+    border: solid 1px;
+    width: 13cm;
+     background-color: rgb(220, 242, 245);
+     border-radius: 25px;
+    font-size: 12
+    0%;
+    padding: 25px;
+}
+
+.game-instructions{
+    display: flex;
+    gap: 3cm;
+    margin-top: 1cm;
+}
+
+.genes{
+    font-size: 150%;
+}
+
+footer{
+    background-color: navy;
+    height: 12.5cm;
+    input{
+        padding: 3em;
+        font-size: 1.5em;
+        width: 15cm;
+        align-items: center;
+        margin-left: 15cm;
+    }
+    button{
+        padding: 2em;
+        background-color: rgb(1, 1, 36);
+        color: white;
+        width: 4cm;
+        border-radius: 2em;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: transparent;
+        border: maroon solid 1px;
+    }
+    p{
+        font-family: 'nunito';
+    }
+ }
+ #feedback{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+ }
+ #social{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2em;
+ }
+ #copyright{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.5em;
+ }
+ .socials{
+    a{
+        text-decoration: none;
+    }
+    i{
+        color: white;
+        padding-left: 10em;
+    }
+ }
